@@ -1,0 +1,82 @@
+{
+  "greeting": [
+    "¡Hola! 🌟 ¡Bienvenido! Soy tu asistente virtual y estoy aquí para hacer tu día más fácil.",
+    "¡Hola! ✨ ¡Qué gusto verte! ¿En qué puedo ayudarte hoy?",
+    "¡Hola! 😊 ¡Bienvenido! Estoy aquí para asistirte.",
+    "¡Hola! 🎉 ¡Qué alegría verte! ¿Cómo puedo ayudarte?"
+  ],
+  "product_info": [
+    "¡Perfecto! 😊 Te cuento todo sobre {product_name}:\n\n📦 **Descripción:** {description}\n💰 **Precio:** ${price}\n🔒 **Garantía:** 1 año\n\n¿Te gustaría comprarlo?",
+    "¡Excelente elección! ✨ Aquí tienes la información de {product_name}:\n\n📦 **Descripción:** {description}\n💰 **Precio:** ${price}\n🔒 **Garantía:** 1 año\n\n¿Te interesa adquirirlo?",
+    "¡Genial! 🌟 Te muestro los detalles de {product_name}:\n\n📦 **Descripción:** {description}\n💰 **Precio:** ${price}\n🔒 **Garantía:** 1 año\n\n¿Quieres proceder con la compra?"
+  ],
+  "purchase": [
+    "¡Fantástico! 🎉 Has seleccionado {product_name} por ${price}. ¿Te gustaría proceder con la compra?",
+    "¡Perfecto! ✨ Has elegido {product_name} por ${price}. ¿Quieres continuar con la compra?",
+    "¡Excelente! 🌟 Has seleccionado {product_name} por ${price}. ¿Te gustaría comprarlo ahora?"
+  ],
+  "support": [
+    "¡Por supuesto! 😊 Estoy aquí para ayudarte. ¿Cuál es el problema que tienes?",
+    "¡Claro! 🌟 Cuéntame qué necesitas y te ayudo a resolverlo.",
+    "¡Perfecto! ✨ Estoy aquí para asistirte. ¿En qué puedo ayudarte?"
+  ],
+  "general": [
+    "Entiendo tu consulta. ¿Te puedo ayudar con algo más específico?",
+    "Gracias por tu mensaje. ¿En qué puedo asistirte?",
+    "Estoy aquí para ayudarte. ¿Qué necesitas?"
+  ],
+  "natural_greeting": [
+    "¡Hola! 🌟 ¡Qué gusto verte! ¿En qué puedo ayudarte hoy?",
+    "¡Hola! ✨ ¡Bienvenido! Estoy aquí para hacer tu día más fácil.",
+    "¡Hola! 😊 ¡Qué alegría verte! ¿Cómo puedo asistirte?",
+    "¡Hola! 🎉 ¡Bienvenido! Soy tu asistente virtual personal.",
+    "¡Hola! 🌈 ¡Qué bueno verte! ¿En qué te puedo ayudar?"
+  ],
+  "natural_product": [
+    "¡Perfecto! 😊 Te cuento todo sobre {product_name}:\n\n📦 **Descripción:** {description}\n💰 **Precio:** ${price}\n🔒 **Garantía:** 1 año\n\n¿Te gustaría comprarlo?",
+    "¡Excelente elección! ✨ Aquí tienes la información de {product_name}:\n\n📦 **Descripción:** {description}\n💰 **Precio:** ${price}\n🔒 **Garantía:** 1 año\n\n¿Te interesa adquirirlo?",
+    "¡Genial! 🌟 Te muestro los detalles de {product_name}:\n\n📦 **Descripción:** {description}\n💰 **Precio:** ${price}\n🔒 **Garantía:** 1 año\n\n¿Quieres proceder con la compra?"
+  ],
+  "natural_support": [
+    "¡Por supuesto! 😊 Estoy aquí para ayudarte. ¿Cuál es el problema que tienes?",
+    "¡Claro! 🌟 Cuéntame qué necesitas y te ayudo a resolverlo.",
+    "¡Perfecto! ✨ Estoy aquí para asistirte. ¿En qué puedo ayudarte?"
+  ],
+  "natural_conversation": [
+    "Entiendo perfectamente. ¿Te puedo ayudar con algo más específico?",
+    "Gracias por compartir eso. ¿En qué puedo asistirte?",
+    "Estoy aquí para ayudarte. ¿Qué necesitas?"
+  ],
+  "appointment": [
+    "¡Perfecto! 📅 Te ayudo a agendar tu cita. ¿Qué día te viene mejor?",
+    "¡Genial! 🗓️ Vamos a programar tu consulta. ¿Cuándo tienes disponible?",
+    "¡Excelente! 📋 Te ayudo con la reserva. ¿Qué horario prefieres?"
+  ],
+  "products": [
+    "¡Por supuesto! 🌟 Te muestro nuestro catálogo completo:\n\nProducto A\nDescripción del producto A\n\n$25.99\n\nProducto B\nDescripción del producto B\n\n$49.99\n\nProducto C\nDescripción del producto C\n\n$99.99",
+    "¡Claro! ✨ Aquí tienes todos nuestros productos:\n\nProducto A\nDescripción del producto A\n\n$25.99\n\nProducto B\nDescripción del producto B\n\n$49.99\n\nProducto C\nDescripción del producto C\n\n$99.99",
+    "¡Perfecto! 😊 Te muestro nuestro catálogo:\n\nProducto A\nDescripción del producto A\n\n$25.99\n\nProducto B\nDescripción del producto B\n\n$49.99\n\nProducto C\nDescripción del producto C\n\n$99.99"
+  ],
+  "returns": [
+    "Nuestra política de devoluciones permite reembolsos dentro de los 30 días de la compra. ¿Te puedo ayudar con algo más?",
+    "Para devoluciones, tienes 30 días desde la compra. ¿Necesitas más información?",
+    "Las devoluciones se procesan en 30 días. ¿En qué más puedo ayudarte?"
+  ],
+  "warranty": [
+    "Todos nuestros productos tienen garantía de 1 año. ¿Te puedo ayudar con algo más?",
+    "La garantía es de 1 año en todos los productos. ¿Necesitas más detalles?",
+    "Ofrecemos garantía de 1 año. ¿En qué más puedo asistirte?"
+  ],
+  "shipping": [
+    "Los envíos se realizan en 2-3 días hábiles. ¿Te puedo ayudar con algo más?",
+    "El tiempo de entrega es de 2-3 días hábiles. ¿Necesitas más información?",
+    "Los envíos tardan 2-3 días hábiles. ¿En qué más puedo ayudarte?"
+  ],
+  "pricing": [
+    "Los precios varían según el producto. ¿Te puedo mostrar nuestro catálogo?",
+    "Tenemos diferentes rangos de precios. ¿Te interesa ver nuestros productos?",
+    "Los precios dependen del producto. ¿Quieres que te muestre las opciones?"
+  ],
+  "last_updated": "2025-07-30T12:07:21.275208",
+  "description": "Plantillas de respuesta dinámicas"
+}

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Inteligente - Prueba</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .chat-container {
+            width: 90%;
+            max-width: 600px;
+            height: 80vh;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .chat-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .chat-header h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+
+        .chat-header p {
+            opacity: 0.9;
+            font-size: 14px;
+        }
+
+        .chat-messages {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            background: #f8f9fa;
+        }
+
+        .message {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .message.user {
+            justify-content: flex-end;
+        }
+
+        .message.bot {
+            justify-content: flex-start;
+        }
+
+        .message-content {
+            max-width: 70%;
+            padding: 12px 16px;
+            border-radius: 18px;
+            word-wrap: break-word;
+        }
+
+        .message.user .message-content {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-bottom-right-radius: 4px;
+        }
+
+        .message.bot .message-content {
+            background: white;
+            color: #333;
+            border: 1px solid #e0e0e0;
+            border-bottom-left-radius: 4px;
+        }
+
+        .message-time {
+            font-size: 11px;
+            opacity: 0.7;
+            margin-top: 5px;
+        }
+
+        .chat-input {
+            padding: 20px;
+            background: white;
+            border-top: 1px solid #e0e0e0;
+            display: flex;
+            gap: 10px;
+        }
+
+        .chat-input input {
+            flex: 1;
+            padding: 12px 16px;
+            border: 2px solid #e0e0e0;
+            border-radius: 25px;
+            outline: none;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+
+        .chat-input input:focus {
+            border-color: #667eea;
+        }
+
+        .chat-input button {
+            padding: 12px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: transform 0.2s;
+        }
+
+        .chat-input button:hover {
+            transform: translateY(-2px);
+        }
+
+        .chat-input button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .typing-indicator {
+            display: none;
+            padding: 12px 16px;
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 18px;
+            border-bottom-left-radius: 4px;
+            margin-bottom: 15px;
+            max-width: 70%;
+        }
+
+        .typing-indicator span {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: #999;
+            margin: 0 2px;
+            animation: typing 1.4s infinite ease-in-out;
+        }
+
+        .typing-indicator span:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .typing-indicator span:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+
+        @keyframes typing {
+            0%, 60%, 100% {
+                transform: translateY(0);
+                opacity: 0.4;
+            }
+            30% {
+                transform: translateY(-10px);
+                opacity: 1;
+            }
+        }
+
+        .product-card {
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 10px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .product-card h4 {
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .product-card p {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .product-card .price {
+            color: #667eea;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .service-option {
+            background: white;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 10px 0;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .service-option:hover {
+            border-color: #667eea;
+            transform: translateY(-2px);
+        }
+
+        .service-option h4 {
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .service-option .duration {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .service-option .price {
+            color: #667eea;
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>🤖 Chatbot Inteligente</h1>
+            <p>Prueba el chatbot - Agendar citas, productos, soporte</p>
+        </div>
+        
+        <div class="chat-messages" id="chatMessages">
+            <div class="message bot">
+                <div class="message-content">
+                    ¡Hola! Soy tu asistente virtual. Puedo ayudarte con:
+                    <br>• 📅 Agendar citas
+                    <br>• 🛍️ Información de productos
+                    <br>• 🆘 Atención al cliente
+                    <br><br>¿En qué te puedo ayudar?
+                    <div class="message-time">Ahora</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="typing-indicator" id="typingIndicator">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="chat-input">
+            <input type="text" id="messageInput" placeholder="Escribe tu mensaje aquí..." maxlength="500">
+            <button id="sendButton" onclick="sendMessage()">Enviar</button>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = 'http://localhost:8000';
+        let userId = 'user_' + Math.random().toString(36).substr(2, 9);
+
+        function addMessage(content, isUser = false, metadata = null) {
+            const messagesContainer = document.getElementById('chatMessages');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${isUser ? 'user' : 'bot'}`;
+            
+            let messageContent = content;
+            
+            // Si hay metadata, procesar contenido especial
+            if (metadata) {
+                if (metadata.action === 'show_products' && metadata.products) {
+                    messageContent += '<br><br>';
+                    metadata.products.forEach(product => {
+                        messageContent += `
+                            <div class="product-card">
+                                <h4>${product.name}</h4>
+                                <p>${product.description}</p>
+                                <div class="price">$${product.price}</div>
+                            </div>
+                        `;
+                    });
+                } else if (metadata.action === 'show_services' && metadata.services) {
+                    messageContent += '<br><br>';
+                    metadata.services.forEach(service => {
+                        messageContent += `
+                            <div class="service-option">
+                                <h4>${service.name}</h4>
+                                <div class="duration">Duración: ${service.duration} minutos</div>
+                                <div class="price">$${service.price}</div>
+                            </div>
+                        `;
+                    });
+                }
+            }
+            
+            messageDiv.innerHTML = `
+                <div class="message-content">
+                    ${messageContent}
+                    <div class="message-time">${new Date().toLocaleTimeString()}</div>
+                </div>
+            `;
+            
+            messagesContainer.appendChild(messageDiv);
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        }
+
+        function showTypingIndicator() {
+            const indicator = document.getElementById('typingIndicator');
+            indicator.style.display = 'block';
+            document.getElementById('chatMessages').scrollTop = document.getElementById('chatMessages').scrollHeight;
+        }
+
+        function hideTypingIndicator() {
+            const indicator = document.getElementById('typingIndicator');
+            indicator.style.display = 'none';
+        }
+
+        async function sendMessage() {
+            const input = document.getElementById('messageInput');
+            const button = document.getElementById('sendButton');
+            const message = input.value.trim();
+            
+            if (!message) return;
+            
+            // Deshabilitar input y botón
+            input.disabled = true;
+            button.disabled = true;
+            
+            // Agregar mensaje del usuario
+            addMessage(message, true);
+            input.value = '';
+            
+            // Mostrar indicador de escritura
+            showTypingIndicator();
+            
+            try {
+                const response = await fetch(`${API_BASE}/chat/send`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        message: message,
+                        user_id: userId
+                    })
+                });
+                
+                const data = await response.json();
+                
+                // Ocultar indicador de escritura
+                hideTypingIndicator();
+                
+                // Agregar respuesta del bot
+                addMessage(data.message, false, data.metadata);
+                
+            } catch (error) {
+                console.error('Error:', error);
+                hideTypingIndicator();
+                addMessage('❌ Lo siento, hubo un error al procesar tu mensaje. Inténtalo de nuevo.', false);
+            }
+            
+            // Habilitar input y botón
+            input.disabled = false;
+            button.disabled = false;
+            input.focus();
+        }
+
+        // Permitir enviar con Enter
+        document.getElementById('messageInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                sendMessage();
+            }
+        });
+
+        // Enfoque automático en el input
+        document.getElementById('messageInput').focus();
+    </script>
+</body>
+</html> 

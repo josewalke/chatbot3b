@@ -1,0 +1,66 @@
+{
+  "patterns": {
+    "greeting": [
+      "hola",
+      "buenos días",
+      "saludos",
+      "hey",
+      "hi",
+      "hello"
+    ],
+    "appointment": [
+      "cita",
+      "agendar",
+      "consulta",
+      "reservar"
+    ],
+    "products": [
+      "productos",
+      "catálogo",
+      "catalogo",
+      "todos"
+    ],
+    "product_info": [
+      "información",
+      "detalles",
+      "saber más",
+      "más info"
+    ],
+    "purchase": [
+      "comprar",
+      "adquirir",
+      "tomar",
+      "llevar"
+    ],
+    "support": [
+      "ayuda",
+      "soporte",
+      "problema",
+      "error"
+    ],
+    "returns": [
+      "devolución",
+      "reembolso",
+      "cambio"
+    ],
+    "warranty": [
+      "garantía",
+      "garantia",
+      "warranty"
+    ],
+    "shipping": [
+      "envío",
+      "envio",
+      "entrega",
+      "shipping"
+    ],
+    "pricing": [
+      "precio",
+      "cuesta",
+      "valor",
+      "coste"
+    ]
+  },
+  "last_updated": "2025-07-30T12:07:21.273607",
+  "description": "Patrones regex para detectar intenciones"
+}

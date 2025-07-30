@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Entorno virtual
+.venv/
+env/
+venv/
+ENV/
+.Python
+
+# Archivos de configuración y variables de entorno
+.env
+.env.*
+*.sqlite3
+*.db
+
+# Archivos de test y resultados temporales
+*.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+.tox/
+*.tmp
+
+# Archivos de VSCode y otros editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node/npm (por si usas npm en el plugin)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# WordPress plugin build
+wordpress-plugin/assets/js/*.min.js
+wordpress-plugin/assets/css/*.min.css
+
+# Archivos de backup
+*~
+*.bak
+*.swp
+*.tmp
+
+# Archivos de datos generados
+vocabulary/*.json
+!vocabulary/example_vocabulary_update.json

@@ -1,0 +1,1331 @@
+{
+  "corrections": {
+    "hola": [
+      "ola",
+      "hla",
+      "hol",
+      "ola",
+      "hla",
+      "hola",
+      "ola",
+      "hla",
+      "hol"
+    ],
+    "buenos": [
+      "buenos",
+      "buenos",
+      "buenos",
+      "buenos"
+    ],
+    "días": [
+      "dias",
+      "días",
+      "dias",
+      "dias"
+    ],
+    "dias": [
+      "días",
+      "días",
+      "dias",
+      "dias"
+    ],
+    "tardes": [
+      "tardes",
+      "tardes",
+      "tardes",
+      "tardes"
+    ],
+    "noches": [
+      "noches",
+      "noches",
+      "noches",
+      "noches"
+    ],
+    "saludos": [
+      "saludos",
+      "saludos",
+      "saludos",
+      "saludos"
+    ],
+    "hey": [
+      "hey",
+      "hey",
+      "hey",
+      "hey"
+    ],
+    "hi": [
+      "hi",
+      "hi",
+      "hi",
+      "hi"
+    ],
+    "hello": [
+      "hello",
+      "hello",
+      "hello",
+      "hello"
+    ],
+    "producto": [
+      "produto",
+      "product",
+      "prodcto",
+      "prodcuto",
+      "produto",
+      "prodcto",
+      "prodcuto",
+      "produto"
+    ],
+    "productos": [
+      "produtos",
+      "products",
+      "prodctos",
+      "produtos",
+      "prodctos",
+      "produtos"
+    ],
+    "produto": [
+      "producto",
+      "producto",
+      "producto",
+      "producto"
+    ],
+    "produtos": [
+      "productos",
+      "productos",
+      "productos",
+      "productos"
+    ],
+    "prodcto": [
+      "producto",
+      "producto",
+      "producto",
+      "producto"
+    ],
+    "prodctos": [
+      "productos",
+      "productos",
+      "productos",
+      "productos"
+    ],
+    "prodcuto": [
+      "producto",
+      "producto",
+      "producto",
+      "producto"
+    ],
+    "prodcutos": [
+      "productos",
+      "productos",
+      "productos",
+      "productos"
+    ],
+    "quiero": [
+      "kiero",
+      "kero",
+      "quero",
+      "kiero",
+      "kiero",
+      "kiero",
+      "kero",
+      "quero"
+    ],
+    "kiero": [
+      "quiero",
+      "quiero",
+      "quiero",
+      "quiero"
+    ],
+    "kero": [
+      "quiero",
+      "quiero",
+      "quiero",
+      "quiero"
+    ],
+    "quero": [
+      "quiero",
+      "quiero",
+      "quiero",
+      "quiero"
+    ],
+    "comprar": [
+      "komprar",
+      "comprar",
+      "komprar",
+      "komprar",
+      "komprar",
+      "komprar"
+    ],
+    "komprar": [
+      "comprar",
+      "comprar",
+      "comprar",
+      "comprar"
+    ],
+    "adquirir": [
+      "adquirir",
+      "adquirir",
+      "adquirir",
+      "adquirir"
+    ],
+    "tomar": [
+      "tomar",
+      "tomar",
+      "tomar",
+      "tomar"
+    ],
+    "llevar": [
+      "llevar",
+      "llevar",
+      "llevar",
+      "llevar"
+    ],
+    "obtener": [
+      "obtener",
+      "obtener",
+      "obtener",
+      "obtener"
+    ],
+    "conseguir": [
+      "conseguir",
+      "conseguir",
+      "conseguir",
+      "conseguir"
+    ],
+    "buscar": [
+      "buscar",
+      "buscar",
+      "buscar",
+      "buscar"
+    ],
+    "encontrar": [
+      "encontrar",
+      "encontrar",
+      "encontrar",
+      "encontrar"
+    ],
+    "interesa": [
+      "interesa",
+      "interesa",
+      "interesa",
+      "interesa"
+    ],
+    "interesado": [
+      "interesado",
+      "interesado",
+      "interesado",
+      "interesado"
+    ],
+    "interesada": [
+      "interesada",
+      "interesada",
+      "interesada",
+      "interesada"
+    ],
+    "gusta": [
+      "gusta",
+      "gusta",
+      "gusta",
+      "gusta"
+    ],
+    "gusto": [
+      "gusto",
+      "gusto",
+      "gusto",
+      "gusto"
+    ],
+    "gustan": [
+      "gustan",
+      "gustan",
+      "gustan",
+      "gustan"
+    ],
+    "me gusta": [
+      "me gusta",
+      "me gusta",
+      "me gusta",
+      "me gusta"
+    ],
+    "me gustan": [
+      "me gustan",
+      "me gustan",
+      "me gustan",
+      "me gustan"
+    ],
+    "me interesa": [
+      "me interesa",
+      "me interesa",
+      "me interesa",
+      "me interesa"
+    ],
+    "me interesan": [
+      "me interesan",
+      "me interesan",
+      "me interesan",
+      "me interesan"
+    ],
+    "información": [
+      "informacion",
+      "informasión",
+      "informasión",
+      "infomacion",
+      "infomacion",
+      "informacion"
+    ],
+    "informacion": [
+      "información",
+      "informasión",
+      "informasión",
+      "infomacion",
+      "información"
+    ],
+    "infomacion": [
+      "información",
+      "información",
+      "información",
+      "información"
+    ],
+    "informasión": [
+      "información",
+      "información",
+      "información",
+      "información"
+    ],
+    "saber": [
+      "saber",
+      "saber",
+      "saber",
+      "saber"
+    ],
+    "conocer": [
+      "conocer",
+      "conocer",
+      "conocer",
+      "conocer"
+    ],
+    "entender": [
+      "entender",
+      "entender",
+      "entender",
+      "entender"
+    ],
+    "explicar": [
+      "explicar",
+      "explicar",
+      "explicar",
+      "explicar"
+    ],
+    "explica": [
+      "explica",
+      "explica",
+      "explica",
+      "explica"
+    ],
+    "explicame": [
+      "explicame",
+      "explicame",
+      "explicame",
+      "explicame"
+    ],
+    "cuéntame": [
+      "cuentame",
+      "cuéntame",
+      "cuentame",
+      "cuentame"
+    ],
+    "cuentame": [
+      "cuéntame",
+      "cuéntame",
+      "cuentame",
+      "cuentame"
+    ],
+    "hablame": [
+      "ablame",
+      "hablame",
+      "ablame",
+      "ablame"
+    ],
+    "ablame": [
+      "hablame",
+      "hablame",
+      "hablame",
+      "hablame"
+    ],
+    "dime": [
+      "dime",
+      "dime",
+      "dime",
+      "dime"
+    ],
+    "muéstrame": [
+      "muestrame",
+      "muéstrame",
+      "muestrame",
+      "muestrame"
+    ],
+    "muestrame": [
+      "muéstrame",
+      "muéstrame",
+      "muestrame",
+      "muestrame"
+    ],
+    "dame": [
+      "dame",
+      "dame",
+      "dame",
+      "dame"
+    ],
+    "necesito": [
+      "nesesito",
+      "necesito",
+      "nesesito",
+      "neseito",
+      "nesesito",
+      "neseito"
+    ],
+    "nesesito": [
+      "necesito",
+      "necesito",
+      "necesito",
+      "necesito"
+    ],
+    "neseito": [
+      "necesito",
+      "necesito",
+      "necesito",
+      "necesito"
+    ],
+    "ayuda": [
+      "ayuda",
+      "ayuda",
+      "ayuda",
+      "ayuda"
+    ],
+    "ayudame": [
+      "ayudame",
+      "ayudame",
+      "ayudame",
+      "ayudame"
+    ],
+    "soporte": [
+      "soporte",
+      "soporte",
+      "soporte",
+      "soporte"
+    ],
+    "asistencia": [
+      "asistencia",
+      "asistencia",
+      "asistencia",
+      "asistencia"
+    ],
+    "problema": [
+      "problema",
+      "problema",
+      "problema",
+      "problema"
+    ],
+    "problemas": [
+      "problemas",
+      "problemas",
+      "problemas",
+      "problemas"
+    ],
+    "duda": [
+      "duda",
+      "duda",
+      "duda",
+      "duda"
+    ],
+    "dudas": [
+      "dudas",
+      "dudas",
+      "dudas",
+      "dudas"
+    ],
+    "pregunta": [
+      "pregunta",
+      "pregunta",
+      "pregunta",
+      "pregunta"
+    ],
+    "preguntas": [
+      "preguntas",
+      "preguntas",
+      "preguntas",
+      "preguntas"
+    ],
+    "consulta": [
+      "consulta",
+      "consulta",
+      "consulta",
+      "consulta"
+    ],
+    "consultas": [
+      "consultas",
+      "consultas",
+      "consultas",
+      "consultas"
+    ],
+    "cita": [
+      "sita",
+      "cita",
+      "sita",
+      "sita"
+    ],
+    "sita": [
+      "cita",
+      "cita",
+      "cita",
+      "cita"
+    ],
+    "citas": [
+      "sitas",
+      "citas",
+      "sitas",
+      "sitas"
+    ],
+    "sitas": [
+      "citas",
+      "citas",
+      "citas",
+      "citas"
+    ],
+    "agendar": [
+      "agendar",
+      "agendar",
+      "agendar",
+      "agendar"
+    ],
+    "reservar": [
+      "reservar",
+      "reservar",
+      "reservar",
+      "reservar"
+    ],
+    "programar": [
+      "programar",
+      "programar",
+      "programar",
+      "programar"
+    ],
+    "solicitar": [
+      "solicitar",
+      "solicitar",
+      "solicitar",
+      "solicitar"
+    ],
+    "anotar": [
+      "anotar",
+      "anotar",
+      "anotar",
+      "anotar"
+    ],
+    "pedir": [
+      "pedir",
+      "pedir",
+      "pedir",
+      "pedir"
+    ],
+    "hacer": [
+      "hacer",
+      "hacer",
+      "hacer",
+      "hacer"
+    ],
+    "sacar": [
+      "sacar",
+      "sacar",
+      "sacar",
+      "sacar"
+    ],
+    "devolución": [
+      "devolucion",
+      "devolusión",
+      "devolusión",
+      "devolucion",
+      "devolucion"
+    ],
+    "devolucion": [
+      "devolución",
+      "devolusión",
+      "devolusión",
+      "devolucion",
+      "devolución"
+    ],
+    "devolver": [
+      "devolver",
+      "devolver",
+      "devolver",
+      "devolver"
+    ],
+    "reembolso": [
+      "reembolso",
+      "reembolso",
+      "reembolso",
+      "reembolso"
+    ],
+    "reembolsar": [
+      "reembolsar",
+      "reembolsar",
+      "reembolsar",
+      "reembolsar"
+    ],
+    "política": [
+      "politica",
+      "política",
+      "politica",
+      "politica"
+    ],
+    "politica": [
+      "política",
+      "política",
+      "politica",
+      "politica"
+    ],
+    "garantía": [
+      "garantia",
+      "garantía",
+      "garantía",
+      "garantia",
+      "garantia"
+    ],
+    "garantia": [
+      "garantía",
+      "garantía",
+      "garantía",
+      "garantia",
+      "garantía"
+    ],
+    "garantizado": [
+      "garantizado",
+      "garantizado",
+      "garantizado",
+      "garantizado"
+    ],
+    "warranty": [
+      "warranty",
+      "warranty",
+      "warranty",
+      "warranty"
+    ],
+    "envío": [
+      "envio",
+      "envío",
+      "envío",
+      "envio",
+      "envio"
+    ],
+    "envio": [
+      "envío",
+      "envío",
+      "envío",
+      "envio",
+      "envío"
+    ],
+    "entrega": [
+      "entrega",
+      "entrega",
+      "entrega",
+      "entrega"
+    ],
+    "delivery": [
+      "delivery",
+      "delivery",
+      "delivery",
+      "delivery"
+    ],
+    "shipping": [
+      "shipping",
+      "shipping",
+      "shipping",
+      "shipping"
+    ],
+    "enviar": [
+      "enviar",
+      "enviar",
+      "enviar",
+      "enviar"
+    ],
+    "mandar": [
+      "mandar",
+      "mandar",
+      "mandar",
+      "mandar"
+    ],
+    "recibir": [
+      "recibir",
+      "recibir",
+      "recibir",
+      "recibir"
+    ],
+    "llegar": [
+      "llegar",
+      "llegar",
+      "llegar",
+      "llegar"
+    ],
+    "tiempo": [
+      "tiempo",
+      "tiempo",
+      "tiempo",
+      "tiempo"
+    ],
+    "cuando": [
+      "cuando",
+      "cuando",
+      "cuando",
+      "cuando"
+    ],
+    "cuándo": [
+      "cuando",
+      "cuándo",
+      "cuando",
+      "cuando"
+    ],
+    "cuanto": [
+      "cuánto",
+      "cuánto",
+      "cuanto",
+      "cuanto"
+    ],
+    "cuánto": [
+      "cuanto",
+      "cuánto",
+      "cuanto",
+      "cuanto"
+    ],
+    "precio": [
+      "presio",
+      "precio",
+      "presio",
+      "presio",
+      "presio"
+    ],
+    "presio": [
+      "precio",
+      "precio",
+      "precio",
+      "precio"
+    ],
+    "costo": [
+      "costo",
+      "costo",
+      "costo",
+      "costo"
+    ],
+    "cost": [
+      "cost",
+      "cost",
+      "cost",
+      "cost"
+    ],
+    "valor": [
+      "valor",
+      "valor",
+      "valor",
+      "valor"
+    ],
+    "cuesta": [
+      "cuesta",
+      "cuesta",
+      "cuesta",
+      "cuesta"
+    ],
+    "vale": [
+      "vale",
+      "vale",
+      "vale",
+      "vale"
+    ],
+    "caro": [
+      "caro",
+      "caro",
+      "caro",
+      "caro"
+    ],
+    "barato": [
+      "barato",
+      "barato",
+      "barato",
+      "barato"
+    ],
+    "económico": [
+      "economico",
+      "económico",
+      "economico",
+      "economico"
+    ],
+    "economico": [
+      "económico",
+      "económico",
+      "economico",
+      "economico"
+    ],
+    "descuento": [
+      "descuento",
+      "descuento",
+      "descuento",
+      "descuento"
+    ],
+    "oferta": [
+      "oferta",
+      "oferta",
+      "oferta",
+      "oferta"
+    ],
+    "promoción": [
+      "promocion",
+      "promoción",
+      "promocion",
+      "promocion"
+    ],
+    "promocion": [
+      "promoción",
+      "promoción",
+      "promocion",
+      "promocion"
+    ],
+    "catálogo": [
+      "catalogo",
+      "catálogo",
+      "catalogo",
+      "catalogo"
+    ],
+    "catalogo": [
+      "catálogo",
+      "catálogo",
+      "catalogo",
+      "catalogo"
+    ],
+    "catalog": [
+      "catalog",
+      "catalog",
+      "catalog",
+      "catalog"
+    ],
+    "merchandise": [
+      "merchandise",
+      "merchandise",
+      "merchandise",
+      "merchandise"
+    ],
+    "mostrar": [
+      "mostrar",
+      "mostrar",
+      "mostrar",
+      "mostrar"
+    ],
+    "ver": [
+      "ver",
+      "ver",
+      "ver",
+      "ver"
+    ],
+    "listar": [
+      "listar",
+      "listar",
+      "listar",
+      "listar"
+    ],
+    "todos": [
+      "todos",
+      "todos",
+      "todos",
+      "todos"
+    ],
+    "todas": [
+      "todas",
+      "todas",
+      "todas",
+      "todas"
+    ],
+    "todo": [
+      "todo",
+      "todo",
+      "todo",
+      "todo"
+    ],
+    "toda": [
+      "toda",
+      "toda",
+      "toda",
+      "toda"
+    ],
+    "disponibles": [
+      "disponibles",
+      "disponibles",
+      "disponibles",
+      "disponibles"
+    ],
+    "disponible": [
+      "disponible",
+      "disponible",
+      "disponible",
+      "disponible"
+    ],
+    "hay": [
+      "hay",
+      "hay",
+      "hay",
+      "hay"
+    ],
+    "tienes": [
+      "tienes",
+      "tienes",
+      "tienes",
+      "tienes"
+    ],
+    "tienen": [
+      "tienen",
+      "tienen",
+      "tienen",
+      "tienen"
+    ],
+    "características": [
+      "caracteristicas",
+      "características",
+      "caracteristicas",
+      "caracteristicas"
+    ],
+    "caracteristicas": [
+      "características",
+      "características",
+      "caracteristicas",
+      "caracteristicas"
+    ],
+    "detalles": [
+      "detalles",
+      "detalles",
+      "detalles",
+      "detalles"
+    ],
+    "detalle": [
+      "detalle",
+      "detalle",
+      "detalle",
+      "detalle"
+    ],
+    "especificaciones": [
+      "especificaciones",
+      "especificaciones",
+      "especificaciones",
+      "especificaciones"
+    ],
+    "especificación": [
+      "especificacion",
+      "especificación",
+      "especificacion",
+      "especificacion"
+    ],
+    "especificacion": [
+      "especificación",
+      "especificación",
+      "especificacion",
+      "especificacion"
+    ],
+    "descripción": [
+      "descripcion",
+      "descripción",
+      "descripcion",
+      "descripcion"
+    ],
+    "descripcion": [
+      "descripción",
+      "descripción",
+      "descripcion",
+      "descripcion"
+    ],
+    "proceso": [
+      "proceso",
+      "proceso",
+      "proceso",
+      "proceso"
+    ],
+    "procedimiento": [
+      "procedimiento",
+      "procedimiento",
+      "procedimiento",
+      "procedimiento"
+    ],
+    "paso": [
+      "paso",
+      "paso",
+      "paso",
+      "paso"
+    ],
+    "pasos": [
+      "pasos",
+      "pasos",
+      "pasos",
+      "pasos"
+    ],
+    "cómo": [
+      "como",
+      "cómo",
+      "como",
+      "como"
+    ],
+    "como": [
+      "cómo",
+      "cómo",
+      "como",
+      "como"
+    ],
+    "qué": [
+      "que",
+      "qué",
+      "que",
+      "que"
+    ],
+    "que": [
+      "qué",
+      "qué",
+      "que",
+      "que"
+    ],
+    "dónde": [
+      "donde",
+      "dónde",
+      "donde",
+      "donde"
+    ],
+    "donde": [
+      "dónde",
+      "dónde",
+      "donde",
+      "donde"
+    ],
+    "el": [
+      "el",
+      "el",
+      "el",
+      "el"
+    ],
+    "la": [
+      "la",
+      "la",
+      "la",
+      "la"
+    ],
+    "las": [
+      "las",
+      "las",
+      "las",
+      "las"
+    ],
+    "los": [
+      "los",
+      "los",
+      "los",
+      "los"
+    ],
+    "un": [
+      "un",
+      "un",
+      "un",
+      "un"
+    ],
+    "una": [
+      "una",
+      "una",
+      "una",
+      "una"
+    ],
+    "unas": [
+      "unas",
+      "unas",
+      "unas",
+      "unas"
+    ],
+    "unos": [
+      "unos",
+      "unos",
+      "unos",
+      "unos"
+    ],
+    "del": [
+      "del",
+      "del",
+      "del",
+      "del"
+    ],
+    "con": [
+      "con",
+      "con",
+      "con",
+      "con"
+    ],
+    "sin": [
+      "sin",
+      "sin",
+      "sin",
+      "sin"
+    ],
+    "por": [
+      "por",
+      "por",
+      "por",
+      "por"
+    ],
+    "para": [
+      "para",
+      "para",
+      "para",
+      "para"
+    ],
+    "sobre": [
+      "sobre",
+      "sobre",
+      "sobre",
+      "sobre"
+    ],
+    "entre": [
+      "entre",
+      "entre",
+      "entre",
+      "entre"
+    ],
+    "hacia": [
+      "hacia",
+      "hacia",
+      "hacia",
+      "hacia"
+    ],
+    "hasta": [
+      "hasta",
+      "hasta",
+      "hasta",
+      "hasta"
+    ],
+    "desde": [
+      "desde",
+      "desde",
+      "desde",
+      "desde"
+    ],
+    "durante": [
+      "durante",
+      "durante",
+      "durante",
+      "durante"
+    ],
+    "mediante": [
+      "mediante",
+      "mediante",
+      "mediante",
+      "mediante"
+    ],
+    "según": [
+      "segun",
+      "según",
+      "segun",
+      "segun"
+    ],
+    "segun": [
+      "según",
+      "según",
+      "segun",
+      "segun"
+    ],
+    "contra": [
+      "contra",
+      "contra",
+      "contra",
+      "contra"
+    ],
+    "tras": [
+      "tras",
+      "tras",
+      "tras",
+      "tras"
+    ],
+    "ante": [
+      "ante",
+      "ante",
+      "ante",
+      "ante"
+    ],
+    "bajo": [
+      "bajo",
+      "bajo",
+      "bajo",
+      "bajo"
+    ],
+    "cabe": [
+      "cabe",
+      "cabe",
+      "cabe",
+      "cabe"
+    ],
+    "conforme": [
+      "conforme",
+      "conforme",
+      "conforme",
+      "conforme"
+    ],
+    "excepto": [
+      "excepto",
+      "excepto",
+      "excepto",
+      "excepto"
+    ],
+    "salvo": [
+      "salvo",
+      "salvo",
+      "salvo",
+      "salvo"
+    ],
+    "vía": [
+      "via",
+      "vía",
+      "via",
+      "via"
+    ],
+    "via": [
+      "vía",
+      "vía",
+      "via",
+      "via"
+    ],
+    "me": [
+      "me",
+      "me",
+      "me",
+      "me"
+    ],
+    "te": [
+      "te",
+      "te",
+      "te",
+      "te"
+    ],
+    "se": [
+      "se",
+      "se",
+      "se",
+      "se"
+    ],
+    "nos": [
+      "nos",
+      "nos",
+      "nos",
+      "nos"
+    ],
+    "os": [
+      "os",
+      "os",
+      "os",
+      "os"
+    ],
+    "le": [
+      "le",
+      "le",
+      "le",
+      "le"
+    ],
+    "les": [
+      "les",
+      "les",
+      "les",
+      "les"
+    ],
+    "lo": [
+      "lo",
+      "lo",
+      "lo",
+      "lo"
+    ],
+    "pro": [
+      "pro",
+      "pro",
+      "pro",
+      "pro"
+    ],
+    "anti": [
+      "anti",
+      "anti",
+      "anti",
+      "anti"
+    ],
+    "pre": [
+      "pre",
+      "pre",
+      "pre",
+      "pre"
+    ],
+    "post": [
+      "post",
+      "post",
+      "post",
+      "post"
+    ],
+    "re": [
+      "re",
+      "re",
+      "re",
+      "re"
+    ],
+    "sub": [
+      "sub",
+      "sub",
+      "sub",
+      "sub"
+    ],
+    "super": [
+      "super",
+      "super",
+      "super",
+      "super"
+    ],
+    "ultra": [
+      "ultra",
+      "ultra",
+      "ultra",
+      "ultra"
+    ],
+    "extra": [
+      "extra",
+      "extra",
+      "extra",
+      "extra"
+    ],
+    "intra": [
+      "intra",
+      "intra",
+      "intra",
+      "intra"
+    ],
+    "inter": [
+      "inter",
+      "inter",
+      "inter",
+      "inter"
+    ],
+    "trans": [
+      "trans",
+      "trans",
+      "trans",
+      "trans"
+    ],
+    "cis": [
+      "cis",
+      "cis",
+      "cis",
+      "cis"
+    ],
+    "ex": [
+      "ex",
+      "ex",
+      "ex",
+      "ex"
+    ],
+    "co": [
+      "co",
+      "co",
+      "co",
+      "co"
+    ]
+  },
+  "last_updated": "2025-07-30T12:01:34.189496",
+  "description": "Correcciones ortográficas y sinónimos"
+}

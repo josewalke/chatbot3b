@@ -1,0 +1,88 @@
+{
+  "spelling_corrections": {
+    "servicio": ["servisio", "servicio", "servisio", "servicio"],
+    "atención": ["atencion", "atención", "atencion", "atención"],
+    "información": ["informacion", "información", "informacion", "información"],
+    "garantía": ["garantia", "garantía", "garantia", "garantía"],
+    "envío": ["envio", "envío", "envio", "envío"],
+    "precio": ["presio", "precio", "presio", "precio"],
+    "disponible": ["disponible", "disponible", "disponible", "disponible"],
+    "consultar": ["konsultar", "consultar", "konsultar", "consultar"],
+    "agendar": ["agendar", "agendar", "agendar", "agendar"],
+    "cancelar": ["kancelar", "cancelar", "kancelar", "cancelar"]
+  },
+  "intent_patterns": {
+    "greeting": [
+      "buenos días",
+      "buenas tardes", 
+      "buenas noches",
+      "saludos",
+      "hey",
+      "hi",
+      "hello",
+      "qué tal",
+      "cómo estás",
+      "cómo va"
+    ],
+    "products": [
+      "qué productos",
+      "qué servicios",
+      "muéstrame",
+      "déjame ver",
+      "quiero ver",
+      "necesito ver",
+      "catalogo",
+      "catálogo",
+      "lista de productos",
+      "oferta"
+    ],
+    "purchase": [
+      "comprar",
+      "adquirir",
+      "tomar",
+      "llevar",
+      "quiero comprar",
+      "me interesa",
+      "me gusta",
+      "quiero ese",
+      "dame",
+      "necesito"
+    ],
+    "support": [
+      "ayuda",
+      "problema",
+      "error",
+      "no funciona",
+      "tengo un problema",
+      "necesito ayuda",
+      "soporte",
+      "atención al cliente",
+      "contacto",
+      "hablar con alguien"
+    ]
+  },
+  "response_templates": {
+    "greeting": [
+      "¡Hola! 🌟 ¡Qué gusto verte! ¿En qué puedo ayudarte hoy?",
+      "¡Hola! ✨ ¡Bienvenido! Estoy aquí para hacer tu día más fácil.",
+      "¡Hola! 😊 ¡Qué alegría verte! ¿Cómo puedo asistirte?",
+      "¡Hola! 🎉 ¡Bienvenido! Soy tu asistente virtual personal.",
+      "¡Hola! 🌈 ¡Qué bueno verte! ¿En qué te puedo ayudar?"
+    ],
+    "product_info": [
+      "¡Perfecto! 😊 Te cuento todo sobre {product}:\n\n📦 **Descripción:** {description}\n💰 **Precio:** ${price}\n🔒 **Garantía:** 1 año\n\n¿Te gustaría comprarlo?",
+      "¡Excelente elección! ✨ Aquí tienes la información de {product}:\n\n📦 **Descripción:** {description}\n💰 **Precio:** ${price}\n🔒 **Garantía:** 1 año\n\n¿Te interesa adquirirlo?",
+      "¡Genial! 🌟 Te muestro los detalles de {product}:\n\n📦 **Descripción:** {description}\n💰 **Precio:** ${price}\n🔒 **Garantía:** 1 año\n\n¿Quieres proceder con la compra?"
+    ],
+    "purchase": [
+      "¡Fantástico! 🎉 Has seleccionado {product} por ${price}. ¿Te gustaría proceder con la compra?",
+      "¡Perfecto! ✨ Has elegido {product} por ${price}. ¿Quieres continuar con la compra?",
+      "¡Excelente! 🌟 Has seleccionado {product} por ${price}. ¿Te gustaría comprarlo ahora?"
+    ],
+    "support": [
+      "¡Por supuesto! 😊 Estoy aquí para ayudarte. ¿Cuál es el problema que tienes?",
+      "¡Claro! 🌟 Cuéntame qué necesitas y te ayudo a resolverlo.",
+      "¡Perfecto! ✨ Estoy aquí para asistirte. ¿En qué puedo ayudarte?"
+    ]
+  }
+} 
